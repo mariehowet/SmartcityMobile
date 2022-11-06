@@ -3,9 +3,10 @@ import {Text} from 'react-native';
 const Logo = (props) => {
     return(
         <Text style={{
-            color: 'white',
+            color: 'orange',
             fontWeight: 'bold',
             fontSize: props.fontSize,
+            margin: 5,
         }}>SwApp</Text>
 
     )
